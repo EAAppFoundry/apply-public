@@ -1,0 +1,207 @@
+body {
+	background-color: #2A2726;
+	color: white;
+}
+
+.turner-text {
+	font-family: 'Helvetica';
+	font-weight: bolder;
+	margin-top: 25px;
+	font-size: 65px;
+	margin-bottom: 35px;
+}
+
+.turner-subtext {
+	font-family: 'Open Sans', sans-serif;
+	margin-top: -20px;
+	font-size: 12px;
+	color: #7F7E7D;
+	padding-left: 50px;
+}
+.nav-text {
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+
+.nav-subtext {
+	font-size: 12px;
+	margin-bottom: 20px;
+	font-style: italic;
+	color: #B1B1B1;
+}
+
+a, a:visited {
+	font-size: 25px;
+	margin-bottom: 5px;
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: #FFB253;
+	text-decoration: underline;
+}
+
+.jobslink {
+	font-size: 14px;
+	color: white;
+	text-decoration: underline;
+}
+
+.footer-img {
+	width: 680px;
+	margin: 0 auto 0px 130px;
+}
+
+.tryptic {
+	margin-top: 10px;
+}
+
+.vertLine {
+	padding-left: 10px;
+	border-left: thin solid white;
+	height: 170px
+}
+
+.col-header {
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.col-text {
+	font-size: 13px;
+	text-align: center;
+}
+
+.jobs-container {
+	margin-top: 10px;
+}
+.credit {
+	font-size: 10px;
+}
+
+.jobs-container .ital {
+	font-style: italic;
+}
+
+span a {
+	font-size: 8px;
+}
+
+.job-list {
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+.job-list li {
+	margin: 10px 0 0 0;	
+}
+
+.job-list .job {
+	font-size: 14px;
+	font-color: white;
+	border: 1px solid white;
+	padding: 17px 21px;;
+	display: block;
+	background: #4D4947;
+}
+
+.job-list .job .title {
+	font-size: 16px;
+	font-weight: bolder;
+	font-color: white;
+
+}
+
+.job-post .title {
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+
+.job-post .url {
+	margin-bottom: 10px;
+}
+
+.job-post .writeup {
+	margin-bottom: 10px;
+}
+
+.job-post .subtitle {
+	font-size: 19px;
+	padding-bottom: 20px;
+}
+
+.job-post .apply {
+	margin-top: 40px;
+}
+
+.job-post .emph {
+	font-weight: bold;
+}
+
+.job-post a {
+	font-size: 14px;
+}
+
+.sorry-text {
+	margin: 25px 0px 10px 25px;
+	font-weight: bold;
+	font-size: 25px;
+	color: #D04F50;
+
+}
+
+.dev-info p {
+	font-size: 14px;
+}
+
+.dev-info .levelup {
+	font-size: 20px;
+	font-weight: bolder;
+	font-color: white;
+	margin-bottom: 10px;
+	margin-left: -10px;
+}
+
+.dev-info .emph {
+	font-weight: bolder;
+}
+
+.dev-info pre {
+	font-family: monospace;
+	font-size: 14px;
+	font-color: white;
+	border: 1px solid white;
+	padding: 17px 21px;
+	margin: 10px 16px;
+	display: block;
+	background: #4D4947;
+}
+
+.dev-info pre .required {
+	font-weight: bolder;
+}
+
+.design-info input[type="text"] {
+	width: 450px;
+}
+
+.design-info textarea {
+	width: 450px;
+	height: 175px;
+}
+
+.add-form input[type="text"] {
+	width: 450px;
+}
+
+.add-form textarea {
+	width: 450px;
+	height: 175px;
+}
+
+.admin a {
+	font-size: 15px;
+}

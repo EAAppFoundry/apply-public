@@ -1,0 +1,20 @@
+
+div.row
+    div.class("sixteen columns")
+        div.offset-by-two
+            div(class="twelve columns alpha")
+                div.job-post
+                    div.title= pos.title
+                    div.subtitle= pos.subtitle
+                    div.req <span class="emph">Req Number:</span>  #{pos.req}
+                    div.location <span class="emph">Location:</span> #{pos.location}
+                    div.type <span class="emph">Job Type:</span> #{pos.type}
+                    div.url <span class="emph">Turner Jobs URL:</span> <a href="#{pos.url}"> #{ pos.url}</a>
+
+                    each item in writeup
+                        div.writeup= item
+
+                    if pos.type.indexOf('dev') > -1
+                        p Interested?  Check out <a href="/devs">Developers</a> for information about how to apply.
+                    else
+                        p Interested?  Check out <a href="/design">Designers</a> for information about how to apply.
